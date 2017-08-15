@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.4.0.0-->
+<GingerCore.Environments.ProjEnvironment Active="False" Created="8/7/2017 12:39:16 PM" CreatedBy="eliranba" Guid="9cd8b50c-ca73-4de2-8920-f67b23eab211" LastUpdate="8/8/2017 12:16:29 PM" LastUpdateBy="eliranba" Name="Default" ParentGuid="00000000-0000-0000-0000-000000000000" Version="8">
+<Applications>
+<GingerCore.Environments.EnvApplication Active="True" Created="8/7/2017 12:39:16 PM" CreatedBy="eliranba" Guid="ec9b5932-e793-413e-aef2-db1d47e4712d" LastUpdate="1/1/0001 12:00:00 AM" Name="MyWebApp" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<Dbs>
+<GingerCore.Environments.Database ConnectionString="" Created="8/7/2017 12:57:21 PM" CreatedBy="eliranba" DBType="Cassandra" Guid="3b4d8443-6225-4db9-b879-895d10dfcfe1" LastUpdate="1/1/0001 12:00:00 AM" Name="Cassandra DB" ParentGuid="00000000-0000-0000-0000-000000000000" Pass="" TNS="localhost:9042" User="" Version="0" />
+</Dbs>
+
+<GeneralParams>
+</GeneralParams>
+
+<LoginUsers>
+</LoginUsers>
+
+<UnixServers>
+</UnixServers>
+</GingerCore.Environments.EnvApplication>
+</Applications>
+
+<Tags>
+</Tags>
+</GingerCore.Environments.ProjEnvironment>

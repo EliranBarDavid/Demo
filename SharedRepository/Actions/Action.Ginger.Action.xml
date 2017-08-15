@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.4.0.0-->
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/9/2017 8:27:15 AM" CreatedBy="eliranba" Description="Action1" EnableRetryMechanism="False" ExternalID="" GenElementAction="0" Guid="d43b95e7-4927-493a-8514-f356b96d9639" LastUpdate="8/9/2017 11:40:05 AM" LastUpdateBy="eliranba" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="ee905f45-5907-4103-abdb-8a3d284403fb" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="4" Wait="0" WindowsToCapture="OnlyActiveWindow" Xoffset="0" Yoffset="0">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="8/9/2017 8:27:22 AM" CreatedBy="eliranba" Guid="41a3e36f-2b5b-4ffa-b739-5fd5cb04f950" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>

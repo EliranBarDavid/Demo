@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.4.0.0-->
+<Ginger.Environments.Solution AlmType="QC" Created="8/7/2017 12:38:51 PM" CreatedBy="eliranba" Guid="0acfcd2f-5c63-464f-a930-4e7f5c885455" LastBusinessFlowFileName="C:\Demo\Demo\BusinessFlows\ValidateAddress.Ginger.BusinessFlow.xml" LastUpdate="8/9/2017 12:18:35 PM" LastUpdateBy="eliranba" Name="Demo" ParentGuid="00000000-0000-0000-0000-000000000000" ShowIndicationkForLockedItems="False" Version="6">
+<ApplicationPlatforms>
+<GingerCore.Platforms.ApplicationPlatform AppName="MyWebApp" CoreGUID="00000000-0000-0000-0000-000000000000" Created="8/7/2017 12:39:15 PM" CreatedBy="eliranba" Guid="5ccabe84-5929-4e4f-875a-48c2c9efa9f4" GUID="00000000-0000-0000-0000-000000000000" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" Version="0" />
+</ApplicationPlatforms>
+
+<ExecutionLoggerConfigurationSetList>
+<Ginger.Reports.ExecutionLoggerConfiguration Created="8/8/2017 7:40:28 AM" CreatedBy="eliranba" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults\" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="9b7e484b-74e8-406d-827b-6997ea6d36f7" IsSelected="True" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" Version="0" />
+</ExecutionLoggerConfigurationSetList>
+
+<ExternalItemsFields>
+</ExternalItemsFields>
+
+<HTMLReportsConfigurationSetList>
+<Ginger.Reports.HTMLReportsConfiguration Created="8/8/2017 7:40:28 AM" CreatedBy="eliranba" Guid="7b95c97b-9844-4736-8fb2-3c1fc673cea7" HTMLReportsAutomaticProdIsEnabled="False" HTMLReportsFolder="~\HTMLReports\" HTMLReportTemplatesSeq="0" IsSelected="True" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" Version="0" />
+</HTMLReportsConfigurationSetList>
+
+<Tags>
+<Ginger.TagsLib.RepositoryItemTag Created="8/8/2017 11:47:46 AM" CreatedBy="eliranba" Description="" Guid="db6245e3-7f7f-47df-8206-c4f8cf8fcc93" LastUpdate="1/1/0001 12:00:00 AM" Name="Iteration_7" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<Ginger.TagsLib.RepositoryItemTag Created="8/8/2017 11:47:46 AM" CreatedBy="eliranba" Description="" Guid="4d945c54-1ee3-4e76-8bfa-178603a0dcd3" LastUpdate="1/1/0001 12:00:00 AM" Name="StoryId_5371" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<Ginger.TagsLib.RepositoryItemTag Created="8/8/2017 11:47:46 AM" CreatedBy="eliranba" Description="" Guid="de2b07b4-5364-44b1-a3c1-10a2b6530738" LastUpdate="1/1/0001 12:00:00 AM" Name="Positive" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<Ginger.TagsLib.RepositoryItemTag Created="8/8/2017 11:47:46 AM" CreatedBy="eliranba" Description="" Guid="f6896fae-6a29-4f0e-ac9c-84d78a804f9e" LastUpdate="1/1/0001 12:00:00 AM" Name="TestNum_1" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<Ginger.TagsLib.RepositoryItemTag Created="8/8/2017 11:47:46 AM" CreatedBy="eliranba" Description="" Guid="1c491796-5c2f-4b23-a729-7410100b3adf" LastUpdate="1/1/0001 12:00:00 AM" Name="TestNum_2" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<Ginger.TagsLib.RepositoryItemTag Created="8/8/2017 11:47:47 AM" CreatedBy="eliranba" Description="" Guid="1472245c-bd23-46d0-ba2b-25e1c3cb7463" LastUpdate="1/1/0001 12:00:00 AM" Name="Negative" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<Ginger.TagsLib.RepositoryItemTag Created="8/8/2017 12:09:30 PM" CreatedBy="eliranba" Description="" Guid="cf4d1157-e8b0-4e97-a989-0fbc0a5612f3" LastUpdate="1/1/0001 12:00:00 AM" Name="Sanity" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<Ginger.TagsLib.RepositoryItemTag Created="8/8/2017 12:09:30 PM" CreatedBy="eliranba" Description="" Guid="060cac77-10ad-4fd5-a4c4-1d19ab870d03" LastUpdate="1/1/0001 12:00:00 AM" Name="Regression" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<Ginger.TagsLib.RepositoryItemTag Created="8/9/2017 8:31:03 AM" CreatedBy="eliranba" Description="" Guid="842e4aaf-492a-4ab0-a582-da7ceab5feba" LastUpdate="1/1/0001 12:00:00 AM" Name="UAT" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<Ginger.TagsLib.RepositoryItemTag Created="8/9/2017 9:28:57 AM" CreatedBy="eliranba" Description="" Guid="9bf75d7d-cb3b-4214-80b7-3ff0b6f79306" LastUpdate="1/1/0001 12:00:00 AM" Name="Tag1" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<Ginger.TagsLib.RepositoryItemTag Created="8/9/2017 9:28:57 AM" CreatedBy="eliranba" Description="" Guid="9dad3c0f-32cd-4464-9cab-238e1ff893fb" LastUpdate="1/1/0001 12:00:00 AM" Name="Tag2" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</Tags>
+
+<Variables>
+</Variables>
+</Ginger.Environments.Solution>

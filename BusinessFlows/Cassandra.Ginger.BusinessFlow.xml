@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.4.0.0-->
+<GingerCore.BusinessFlow Active="False" Created="8/9/2017 9:25:36 AM" CreatedBy="eliranba" EnableActivitiesVariablesDependenciesControl="False" Guid="9e995392-8444-49f1-924e-3943d3a6427a" LastUpdate="8/15/2017 11:24:09 AM" LastUpdateBy="eliranba" Name="Cassandra" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="6">
+<Activities>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1" AutomationStatus="Development" Created="8/9/2017 9:25:36 AM" CreatedBy="eliranba" EnableActionsVariablesDependenciesControl="False" Guid="c38094a6-4e42-4544-b908-f652583799c0" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Version="0">
+<Acts>
+<GingerCore.Actions.ActDBValidation Active="True" AppName="MyWebApp" ConfigOutputDS="False" Created="8/9/2017 11:28:38 AM" CreatedBy="eliranba" DBName="Cassandra DB" DBValidationType="FreeSQL" Description="DataBase Action" EnableRetryMechanism="False" ExternalID="" Guid="6eb5f4e3-e9e1-4cb8-b883-cde8918046b0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="9d2124ec-814c-4516-9eed-6c50bbb6d1a2" Platform="NA" RetryMechanismInterval="5" SQL="select * from gingerdemo.users1;" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="8/9/2017 11:28:44 AM" CreatedBy="eliranba" Guid="78f005a4-ec1f-46d4-a564-97f30e358238" LastUpdate="1/1/0001 12:00:00 AM" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="select * from gingerdemo.users1;" Value="select * from gingerdemo.users1;" Version="0" />
+<GingerCore.Actions.ActInputValue Created="8/9/2017 11:28:44 AM" CreatedBy="eliranba" Guid="474d761b-2cb2-4998-bd11-3514bed24cd4" LastUpdate="1/1/0001 12:00:00 AM" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="FreeSQL" Value="FreeSQL" Version="0" />
+<GingerCore.Actions.ActInputValue Created="8/9/2017 11:28:44 AM" CreatedBy="eliranba" Guid="94cd7d91-b9a8-4f49-9e71-fade5a82af5b" LastUpdate="1/1/0001 12:00:00 AM" Param="QueryFile" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Actions.ActInputValue Created="8/9/2017 11:28:44 AM" CreatedBy="eliranba" Guid="2e2ce89c-1eba-452e-b5da-6f0b75195029" LastUpdate="1/1/0001 12:00:00 AM" Param="ImportFile" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="True" Value="True" Version="0" />
+<GingerCore.Actions.ActInputValue Created="8/9/2017 11:28:44 AM" CreatedBy="eliranba" Guid="2307c927-b38d-49bf-8340-8e772925ae0e" LastUpdate="1/1/0001 12:00:00 AM" Param="CommitDB" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+<GingerCore.Actions.ActReturnValue Active="True" Created="8/9/2017 11:47:06 AM" CreatedBy="eliranba" Guid="dc294c24-aad3-497f-83e8-fc9fb04ee775" LastUpdate="1/1/0001 12:00:00 AM" mExpected="1" Param="id" ParentGuid="00000000-0000-0000-0000-000000000000" SimulatedActual="1" StoreTo="None" StoreToValue="" Version="0" />
+<GingerCore.Actions.ActReturnValue Active="True" Created="8/9/2017 11:47:06 AM" CreatedBy="eliranba" Guid="e967fede-d102-4632-b12e-27fe723a191c" LastUpdate="1/1/0001 12:00:00 AM" mExpected="Apple" Param="name" ParentGuid="00000000-0000-0000-0000-000000000000" SimulatedActual="Apple" StoreTo="None" StoreToValue="" Version="0" />
+<GingerCore.Actions.ActReturnValue Active="True" Created="8/9/2017 11:47:06 AM" CreatedBy="eliranba" Guid="911cafdc-4a7b-4cb7-b836-c58ba9887a5b" LastUpdate="1/1/0001 12:00:00 AM" mExpected="2" Param="id" ParentGuid="00000000-0000-0000-0000-000000000000" Path="1" SimulatedActual="2" StoreTo="None" StoreToValue="" Version="0" />
+<GingerCore.Actions.ActReturnValue Active="True" Created="8/9/2017 11:47:06 AM" CreatedBy="eliranba" Guid="8d604726-4ac3-45bc-b8b6-24f52ddcd2cc" LastUpdate="1/1/0001 12:00:00 AM" mExpected="Banana" Param="name" ParentGuid="00000000-0000-0000-0000-000000000000" Path="1" SimulatedActual="Banana" StoreTo="None" StoreToValue="" Version="0" />
+<GingerCore.Actions.ActReturnValue Active="True" Created="8/9/2017 11:47:06 AM" CreatedBy="eliranba" Guid="10b82d97-629e-40bb-b026-ca75e2a56c9b" LastUpdate="1/1/0001 12:00:00 AM" mExpected="3" Param="id" ParentGuid="00000000-0000-0000-0000-000000000000" Path="2" SimulatedActual="3" StoreTo="None" StoreToValue="" Version="0" />
+<GingerCore.Actions.ActReturnValue Active="True" Created="8/9/2017 11:47:06 AM" CreatedBy="eliranba" Guid="5407fd4d-3e34-495f-82b2-1121f4cb7caa" LastUpdate="1/1/0001 12:00:00 AM" mExpected="StrawBerry" Param="name" ParentGuid="00000000-0000-0000-0000-000000000000" Path="2" SimulatedActual="StrawBerry" StoreTo="None" StoreToValue="" Version="0" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDBValidation>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity2" AutomationStatus="Development" Created="8/9/2017 11:28:27 AM" CreatedBy="eliranba" EnableActionsVariablesDependenciesControl="False" Guid="8f43947e-2b0b-4065-b1fe-4f8aa9dd469a" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Version="0">
+<Acts>
+<GingerCore.Actions.ActDBValidation Active="True" AppName="MyWebApp" ConfigOutputDS="False" Created="8/9/2017 11:28:38 AM" CreatedBy="eliranba" DBName="Cassandra DB" DBValidationType="FreeSQL" Description="DataBase Action" EnableRetryMechanism="False" ExternalID="" Guid="138e495b-6267-46e2-a4f8-99e620c3df21" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="15164c01-c002-4909-bc58-9793db23f6a2" Platform="NA" RetryMechanismInterval="5" SQL="select * from gingerdemo.users1;" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="8/9/2017 11:28:44 AM" CreatedBy="eliranba" Guid="78f005a4-ec1f-46d4-a564-97f30e358238" LastUpdate="1/1/0001 12:00:00 AM" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="select * from gingerdemo.users1;" Value="select * from gingerdemo.users1;" Version="0" />
+<GingerCore.Actions.ActInputValue Created="8/9/2017 11:28:44 AM" CreatedBy="eliranba" Guid="474d761b-2cb2-4998-bd11-3514bed24cd4" LastUpdate="1/1/0001 12:00:00 AM" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="FreeSQL" Value="FreeSQL" Version="0" />
+<GingerCore.Actions.ActInputValue Created="8/9/2017 11:28:44 AM" CreatedBy="eliranba" Guid="94cd7d91-b9a8-4f49-9e71-fade5a82af5b" LastUpdate="1/1/0001 12:00:00 AM" Param="QueryFile" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Actions.ActInputValue Created="8/9/2017 11:28:44 AM" CreatedBy="eliranba" Guid="2e2ce89c-1eba-452e-b5da-6f0b75195029" LastUpdate="1/1/0001 12:00:00 AM" Param="ImportFile" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="True" Value="True" Version="0" />
+<GingerCore.Actions.ActInputValue Created="8/9/2017 11:28:44 AM" CreatedBy="eliranba" Guid="2307c927-b38d-49bf-8340-8e772925ae0e" LastUpdate="1/1/0001 12:00:00 AM" Param="CommitDB" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDBValidation>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>
+</Activities>
+
+<ActivitiesGroups>
+</ActivitiesGroups>
+
+<Tags>
+</Tags>
+
+<TargetApplications>
+<GingerCore.Platforms.TargetApplication AppName="MyWebApp" Created="8/9/2017 9:25:39 AM" CreatedBy="eliranba" Guid="97021d98-b523-4d8e-a7ef-c6ffbdd2ced4" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</TargetApplications>
+
+<Variables>
+</Variables>
+</GingerCore.BusinessFlow>
